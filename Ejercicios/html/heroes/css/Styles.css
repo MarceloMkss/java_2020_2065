@@ -1,0 +1,132 @@
+/* Nuetra hoja de estilos */
+
+:root {
+    --color-primary: #e52326;
+    --color-accent: rgb(244, 168, 3);
+    --blanco: #FFF;
+    --negro: #202020;
+    --marron: peru;
+    --verde: lime;
+    --rosa: pink;
+    --gris-ligth: #f7f7f7;
+    --gris-medium: #6f777b;
+    --gris-dark: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* es como un margin pero interno*/
+    box-sizing: border-box;
+}
+
+/* estilos a todas las etiquetas*/
+
+body {
+    color: var(--negro);
+    font-size: 1rem;
+    /* 16px */
+    line-height: 1.3rem;
+    font-weight: 400;
+    /*tamaño fonte*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    margin: 1rem 0;
+}
+
+h2, h3, h4, h5, h6 {
+    margin: 1rem 0;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+header, main, footer, .container {
+    max-width: 1024px;
+    box-sizing: border-box;
+    margin: auto;
+    /* centrar el contendo*/
+    width: 100%;
+}
+
+header {
+    color: var(--blanco);
+    background-color: var(--negro);
+}
+
+main {
+    background-color: var(--gris-medium);
+    padding: 1rem;
+}
+
+footer {
+    background-color: var(--gris-medium);
+    padding: 5px;
+    display: flex;
+    border: 1px solid black;
+}
+
+footer section {
+    width: 100%;
+}
+
+nav#header {
+    background-color: var(--color-primary);
+    color: #FFF;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+nav#header a {
+    color: #FFF;
+}
+
+nav#header ul {
+    /* posicionar los LIs en horizontal y dividir el spacio */
+    display: flex;
+    justify-content: space-between;
+}
+
+nav#header ul li {
+    list-style: none;
+    /* quitar puntito */
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+nav#header ul li:hover {
+    background-color: #03A9F4;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.container-img {
+    display: flex;
+    justify-content: space-between;
+}

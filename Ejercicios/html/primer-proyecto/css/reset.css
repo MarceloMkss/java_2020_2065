@@ -1,0 +1,7 @@
+/* resetear los estilos que puedan dar los navegadores*/
+*{
+    margin: 0;
+    padding: 0; /* es como un margin pero interno*/
+    box-sizing: border-box;
+
+}

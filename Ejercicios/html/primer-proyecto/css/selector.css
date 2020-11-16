@@ -1,0 +1,21 @@
+p span{
+    color: royalblue;
+    font-weight: bold;
+
+}
+
+.destacado {
+
+    color: teal;font-size:2em;font-family:Verdana;
+
+}
+
+.avanzado{
+  color: tomato;
+}
+
+.test{
+
+    text-align: left;
+}
+

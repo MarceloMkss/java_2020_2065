@@ -1,0 +1,61 @@
+:root {
+    --azul: #003580;
+    --blanco: #FFF;
+    --negro: #000;
+    --marron: peru;
+    --verde: lime;
+    --rosa: pink;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* es como un margin pero interno*/
+    box-sizing: border-box;
+}
+
+.Parafro {
+    font-weight: normal;
+    text-align: right;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    text-decoration: none;
+    margin: 10px;
+    color: blue;
+    background-color: orange;
+    text-transform: capitalize;
+    vertical-align: middle;
+    letter-spacing: 0em;
+    word-spacing: 0em;
+    white-space: normal;
+}
+
+h2 {
+    text-align: left;
+    font-size: 1em;
+    line-height: 1.1em;
+    margin: 10px;
+    background-color: green;
+    text-transform: uppercase;
+}
+h1{
+    color: blue;
+}
+
+.enlace a{
+    color: red;    
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-decoration: overline;
+    margin: 10px;
+    padding:30px ;
+    
+  
+}
+
+.enlace :hover a{
+    text-decoration: none;
+    background-color: #CC0000;
+    color: #FFF;
+}

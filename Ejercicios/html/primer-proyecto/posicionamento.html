@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <style>
+        h1{
+            color: teal;
+        }
+    </style>
+    
+    
+    <h1>Posicionamento</h1>
+    <a href="https://uniwebsidad.com/libros/css/capitulo-5" target="_blank" >tutorial</a> 
+
+    <h2>Posicionamiento Relativo</h2>
+    <style>
+        #pr { background-color: grey; padding: 30px; }
+        #pr span { background-color: pink; padding: 10px;}
+        #p .relativo { background-color:orange; position: relative;top: 0px; left: 0px;}
+    </style>
+
+    <section id="pr">
+        <span class="relativo">Contenido 1</span>
+        <span>Contenido 2 un poco mas largo</span>
+        <span>Contenido3</span>
+    </section>
+
+
+
+    <h2>Posicionamiento absoluto</h2>
+    <style>
+        #abs { background-color: grey; padding: 30px; }
+        #abs span { background-color: pink; padding: 10px;}
+        #abs .absoluto { background-color:red; position: relative;top: 20px; left: 30px;}
+    </style>
+
+    <section id="abs">
+        <span class="absoluto">ABSOLUTO</span>
+        <span>Contenido 2 un poco mas largo</span>
+        <span>Contenido3</span>
+    </section>
+
+    <h2>Poscionamiento Fijo</h2>
+    <p>Funciona igual que el absoluto, pero el elemneto es FIJO respecto a la ventan del navegador</p>
+    <p>Hacer scroll para ver como esta de forma fija</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, in voluptatem obcaecati rem excepturi repellat laboriosam.</p>
+    <p>Reiciendis quos velit quasi accusantium numquam, nobis ipsum animi, ea ratione in modi deleniti fugit. Doloribus.</p>
+    <p>Architecto qui repudiandae numquam repellendus asperiores, expedita ducimus dignissimos facilis, ipsam eius provident, autem nisi. Quod.</p>
+    <p>Repudiandae esse quibusdam nam velit, harum provident quam pariatur numquam obcaecati odio voluptatibus facilis necessitatibus quas?</p>
+    <p>Eaque id deleniti, aut reprehenderit aliquam ipsam aspernatur non architecto illo molestiae odit harum eius rerum!</p>
+    <p>Amet, voluptas. Ab accusamus quia vero aspernatur suscipit, exercitationem dolores incidunt eos, inventore consequuntur vel deserunt!</p>
+    <p>Repellendus porro suscipit quam unde. Vel placeat soluta pariatur unde officiis hic facere a deserunt? Unde!</p>
+    <p>Iusto est, sit amet minima voluptatum ex, officiis voluptates voluptate aliquid voluptatibus quisquam recusandae, reprehenderit nisi!</p>
+    <p>Doloremque, alias. Quo delectus mollitia quas voluptas placeat fugit, sed reprehenderit. Praesentium, expedita facilis? Aut, placeat?</p>
+    <p>Dolorum rem, nulla temporibus iure odio iusto voluptas sed commodi quos vel esse ex, itaque corrupti?</p>
+    <p>Est rem officiis ea! Quas id iusto suscipit eveniet rerum vitae totam amet hic quisquam? Error.</p>
+    <p>Aliquam placeat, vel rem in consequuntur saepe sit esse nesciunt repellendus doloribus, cupiditate autem perferendis reiciendis!</p>
+    <p>Sunt a pariatur autem magni aperiam. Doloribus aliquam ex voluptas error dolores laudantium optio voluptatum tenetur.</p>
+    <p>Nulla repellendus quas voluptatum atque adipisci quaerat autem. Eos quaerat quod architecto cumque sequi nihil reiciendis!</p>
+    <p>Corrupti sint numquam animi dolorum voluptatem nihil, modi nam dicta. Doloribus enim eos sint deleniti voluptatum?</p>
+    <p>Aliquid aspernatur sapiente nam, corrupti doloribus labore soluta maiores excepturi ipsam voluptatem, praesentium, quis dolorem id.</p>
+    <p>Tempora fuga, non doloribus sunt fugit delectus perferendis, inventore velit iusto consequatur fugiat assumenda, qui sapiente?</p>
+    <p>Eos autem alias, amet corrupti deleniti enim? Architecto vel nostrum voluptate delectus inventore incidunt qui doloribus.</p>
+    <p>Qui cum, mollitia nulla aperiam a, minus facere consequuntur esse fugit incidunt cumque laudantium, illo expedita!</p>
+    <p>Beatae corporis molestiae ullam exercitationem distinctio. Cumque voluptates aliquam dolorum, ad itaque a voluptatibus dolore doloribus!</p>t
+
+    <style>
+        .btn_top {
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: orange;      
+            -webkit-box-shadow: -4px 5px 9px 1px rgba(0,0,0,0.49);
+            -moz-box-shadow: -4px 5px 9px 1px rgba(0,0,0,0.49);
+            box-shadow: -4px 5px 9px 1px rgba(0,0,0,0.49);          
+        }
+
+        .btn_top:hover{
+            background-color: #d66718;
+            -webkit-box-shadow: 1px 1px 17px 8px rgba(0,0,0,0.49);
+            -moz-box-shadow: 1px 1px 17px 8px rgba(0,0,0,0.49);
+            box-shadow: 1px 1px 17px 8px rgba(0,0,0,0.49);        
+        } 
+
+        .btn_top a {
+            color: #FFF;
+            font-size: 4rem;
+            font-weight: 100;
+            text-decoration: none;            
+            padding-left: 11px;
+            font-family: Arial;
+        }
+
+    </style>
+    
+    <span class="btn_top"><a href="#top">^</span>
+
+    <h2>posicionamento flotante</h2>
+
+    <h2>Posicionamiento Flotante</h2>
+    <div>
+        <img class="imagen-flotante" src="http://lorempixel.com/200/200/sports" alt="imagen aleatoria">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias beatae debitis commodi culpa sed optio, dolore facere voluptatibus, nesciunt eveniet ea. Modi temporibus totam sapiente deleniti voluptates, quis voluptas mollitia.</p>
+        <p>Nobis consequatur voluptatum aspernatur, omnis at nostrum, reprehenderit optio, amet unde sunt iure! Nihil expedita maxime repellendus neque! Quisquam blanditiis beatae quos iure eum quia dicta impedit assumenda vel exercitationem.</p>
+        <p>Minus eaque animi aliquid expedita repellat ratione asperiores totam repudiandae, molestias, harum illo accusamus necessitatibus quae. Ex alias in facere, dicta tempora eius enim recusandae fuga corrupti cupiditate. Ipsa, voluptas.</p>
+    </div>
+<style>
+.imagen-flotante {
+        float: left;
+        margin-right: 25px;
+        margin-bottom: 20px;
+    }
+</style>
+    
+    
+
+    
+</body>
+</html>
